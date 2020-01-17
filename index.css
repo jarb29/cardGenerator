@@ -1,0 +1,55 @@
+body{
+  background-color: green;
+  position: relative;
+}
+
+#card{
+  float: center;
+  background-color: white;
+  width: 400px;;
+  height: 500px;
+  position: absolute;
+  margin-left: 30%;
+  border-radius: 25px;
+
+}
+
+#numero{
+  margin-top: 400%;
+  font-size: 150px;
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  left: 500px;
+  top:150px;
+
+}
+
+.heart{
+  margin-top: 10%;
+  font-size: 50px;
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  left: 25px;
+  top:5px;
+
+}
+
+.diamon{
+  margin-top: 400%;
+  font-size: 50px;
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  left: 260px;
+  top:400px;
+
+
+}
