@@ -9,5 +9,10 @@ let a = Math.floor(Math.random()*4);
 let b = Math.floor(Math.random()*13);
 
 numero.innerHTML = numm[b];
-figure.innerHTML = fig[a];
-figure2.innerHTML = fig[a];
+
+if(b % 2===0){
+  figure.innerHTML = fig[a];
+  figure2.innerHTML = fig[a];
+  figure.style.color = "red"
+  figure2.style.color = "red"} else {figure.innerHTML = fig[a];
+  figure2.innerHTML = fig[a];};
